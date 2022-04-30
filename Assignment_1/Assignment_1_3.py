@@ -1,7 +1,7 @@
 from pulp import *
 
 # getting the contracts
-with open('hw1-03.txt') as f:
+with open('Assignment_1_3.txt') as f:
     contracts = [tuple(map(int, i.split(' '))) for i in f]
 
 # creating the LpVariables for the number of representatives
